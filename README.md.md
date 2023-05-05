@@ -57,6 +57,10 @@ The program can be used and edited by anyone without a need to refer to the auth
 - [exercise1][ue1]
 - [exercise2][ue2]
 
+### Contact information
+
+- [github profile][github]
+- [university][uni]
 
 
 
@@ -64,3 +68,6 @@ The program can be used and edited by anyone without a need to refer to the auth
 [jdk]: <https://www3.ntu.edu.sg/home/ehchua/programming/howto/jdk_howto.html>
 [ue1]: exercise1.md
 [ue2]: exercise2.md
+[github]: https://github.com/patinfo98
+[uni]: https://www.fh-joanneum.at/
+
