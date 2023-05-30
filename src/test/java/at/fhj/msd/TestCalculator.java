@@ -4,7 +4,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class TestCalculator {
     Calculator calculator;
@@ -45,15 +46,6 @@ public class TestCalculator {
         Throwable exception = assertThrows(ArithmeticException.class, () -> calculator.divide(10, 0));
         assertEquals(5, calculator.divide(10,2));
         assertEquals(0, calculator.divide(0, 10));
-    }
-
-    @Test
-    @DisplayName("Testing faculty")
-    void testFac(){
-        assertAll(
-                ()-> assertEquals(0, calculator.faculty(-1)),
-                ()-> assertEquals(120, calculator.faculty(5)),
-                ()-> assertEquals(1, calculator.faculty(0)));
     }
 
 

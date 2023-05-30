@@ -19,14 +19,5 @@ public class Calculator {
         return number1*number2;
     }
 
-    public double faculty(int i){
-        if(i < 0)
-            return 0;
-        int faculty = 1;
-        for(int j = 1; j<=i; j++){
-            faculty*=j;
-        }
-        return faculty;
-    }
 
 }
