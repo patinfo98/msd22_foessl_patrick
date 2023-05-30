@@ -53,7 +53,7 @@ public class TestCalculator {
         assertAll(
                 () -> assertEquals(0, calculator.faculty(-1) ),
                 () ->assertEquals(1, calculator.faculty(0)),
-                () ->assertEquals(120, calculator.faculty(120)));
+                () ->assertEquals(120, calculator.faculty(5)));
     }
 
 

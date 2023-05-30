@@ -20,6 +20,12 @@ public class Calculator {
     }
 
     public double faculty(int x){
-        return 0;
+        int faculty = 1;
+        if(x<0)
+            return 0;
+        for(int j = 1; j<=x; j++){
+            faculty*=j;
+        }
+        return faculty;
     }
 }
