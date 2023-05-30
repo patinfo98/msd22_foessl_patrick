@@ -19,5 +19,7 @@ public class Calculator {
         return number1*number2;
     }
 
-
+    public double faculty(int x){
+        return 0;
+    }
 }
