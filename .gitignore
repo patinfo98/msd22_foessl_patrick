@@ -3,4 +3,4 @@ exercise1.pdf
 resources/
 .idea
 target/
-
+**/*.log
