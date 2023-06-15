@@ -48,12 +48,12 @@ public class CalculatorTest {
     }
 
     @Test
-    @DisplayName("Test faculty")
+    @DisplayName("Test factorial")
     void TestFac(){
         assertAll(
-                () -> assertEquals(0, calculator.faculty(-1) ),
-                () ->assertEquals(1, calculator.faculty(0)),
-                () ->assertEquals(120, calculator.faculty(5)));
+                () -> assertEquals(0, calculator.factorial(-1) ),
+                () ->assertEquals(1, calculator.factorial(0)),
+                () ->assertEquals(120, calculator.factorial(5)));
     }
 
 
