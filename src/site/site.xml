@@ -1,0 +1,11 @@
+<project name="msd22_foessl_patrick">
+    <publishDate position="right"/>
+    <version position="left"/>
+    <body>
+        <menu name="Overview">
+            <item name="Good Style" href="good_style.html"/>
+            <item name="Index" href="index.html"/>
+        </menu>
+        <menu ref="reports"/>
+    </body>
+</project>

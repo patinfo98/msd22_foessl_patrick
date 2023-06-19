@@ -59,6 +59,7 @@ The program can be used and edited by anyone without a need to refer to the auth
 - [exercise3][ue3]
 - [exercise4][ue4]
 - [exercise5][ue5]
+- [exercise6][ue6]
 ### Contact information
 
 - [github profile][github]
@@ -73,6 +74,7 @@ The program can be used and edited by anyone without a need to refer to the auth
 [ue3]: exercise3.md
 [ue4]: exercise4.md
 [ue5]: exercise5.md
+[ue6]: exercise6.md
 [github]: https://github.com/patinfo98
 [uni]: https://www.fh-joanneum.at/
 

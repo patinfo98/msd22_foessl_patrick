@@ -1,7 +1,6 @@
 exercise1.html
 exercise1.pdf
-resources/
 .idea
 target/
-**/*.log
+*.log
 src/main/resources/log4j2.xml

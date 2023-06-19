@@ -31,7 +31,6 @@ public class Calculator {
      * @param number2 is the second number
      * @return the sum of the numbers
      *
-     *
      * */
     public double add(double number1, double number2){
         logger.debug("method " + Thread.currentThread().getStackTrace()[1].getMethodName() + " called with parameters " + "number1: " + number1 + ", " + "number2: " + number2);
@@ -46,7 +45,6 @@ public class Calculator {
      * @param number1 is the first number
      * @param number2 is subtracted from number1
      * @return number1 - number2
-     *
      * */
     public double minus(double number1, double number2){
         logger.debug("method " + Thread.currentThread().getStackTrace()[1].getMethodName() + " called with parameters " + "number1: " + number1 + ", " + "number2: " + number2);
@@ -58,6 +56,7 @@ public class Calculator {
      * The method divides one number from another
      *
      * The method call is logged to a file before the result is returned
+     *
      * @param number1 is the numerator
      * @param number2 is the denominator
      * @return number1 divided by number2
@@ -76,7 +75,8 @@ public class Calculator {
     /**
      * The method multiplies two numbers
      *
-     * The method call is logged to a file before the result is returned
+     * The method call is logged to a file before the product is returned
+     *
      * @param number1 is the first number
      * @param number2 is the second number
      * @return the product of the numbers
@@ -93,6 +93,7 @@ public class Calculator {
      * factorial is the multiplication of each number up to the given number
      * e.g. factorial of 5 = 1*2*3*4*5
      * The method call is logged to a file before the result is returned
+     *
      * @param number1 is the first number
      * @param number2 is the second number
      * @return the product of the numbers
